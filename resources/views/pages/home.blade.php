@@ -11,6 +11,12 @@ $arrCards = [['img' => 'volvo1.webp'], ['img' => 'volvo5.webp'], ['img' => 'volv
 @section('content')
 		@include('partials.homepage._hero')
 		@include('partials.homepage._home1Text')
+		<div class="flex justify-center space-x-10">
+				<x-card description='bonjour bienvenue sur le site de volvo partez en camping avec la super voiture volvo'
+						title='Camping Volvo' url_img='camping.webp' />
+				<x-card description='bonjour bienvenue sur le site de volvo partez en ville avec la super voiture volvo'
+						title='Ville Volvo' url_img='nosvolvo.webp' />
+		</div>
 		@include('partials.homepage._home2PhotoButton')
 		@include('partials.homepage._home3ModeleDispo')
 		@include('partials.homepage._home4AllModeles')

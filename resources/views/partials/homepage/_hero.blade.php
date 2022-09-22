@@ -1,7 +1,7 @@
 <div class="">
 		<img alt="volvo bg" src="img/2.webp">
 </div>
-<div class=" absolute bottom-96 left-96 text-white font-black grid place-items-center">
+<div class=" justify-items-center relative bottom-96 text-white font-black grid ">
 		<p class="text-2xl">Le nouveau crossover 100% électrique</p>
 		<h1 class="text-6xl">Volvo C40 Recharge</h1>
 		<div class="">
